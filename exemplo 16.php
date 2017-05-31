@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Exemplo 16</title>
+</head>
+<body>
+<?PHP
+function teste($txt = "testando"){
+echo"<h2> $txt </h2>";
+}
+teste();
+teste("Outro Teste");
+?>
+
+</body>
+</html>
